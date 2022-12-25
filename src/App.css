@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+/* HEADER */
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-left-list {
+    list-style: none;
+    display: flex;
+    padding: 0
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-right-list {
+    list-style: none;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-item {
+    /* padding: 0 1rem 0 1rem; */
+    align-self: center;
 }
 
-.App-link {
-  color: #61dafb;
+.company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-item-link {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    padding: 0.7rem;
+}
+
+.list-item-link:hover {
+    color: black;
+}
+
+.list-item-link-background {
+    padding: 0.7rem;
+}
+
+.list-item-link-background:hover {
+    color: white;
+    background-color: rgba(25, 195, 195, 0.527);
+    border-radius: 15px;
+    padding: 0.7rem;
+}
+
+/* HERO */
+.Hero {
+    display: flex;
+    margin: 0 auto;
+    padding: 4rem;
+    width: 80%;
+}
+
+.hero-image {
+    width: 40rem
+}
+
+.hero-header {
+    font-size: 70px;
+    width: 500px;
+    letter-spacing: -4px;
+    margin-bottom: 0;
+    padding: 0.7rem;
+}
+
+.hero-second-header {
+    color: gray;
+    font-weight: normal;
+    font-size: 15px;
+    width: 400px;
+    word-spacing: 5px;
+    padding: 0.7rem;
+}
+
+.hero-get-started {
+    padding: 0.7rem;
+    width: 7rem;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.hero-get-started:hover {
+    color: white;
+    background-color: rgba(25, 195, 195, 0.527);
+    border-radius: 15px;
+    padding: 0.7rem;
+    border: 0px;
+    cursor: pointer;
+}
+
+/* BOTTOM DETAILS */
+.bottom-details-top {
+    background-color: rgba(173, 173, 180, 0.133);
+}
+
+.bottom-details-advanced-stats {
+    padding-top: 10rem;
+    width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom-details-advanced-stats-h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.bottom-details-advanced-stats-p {
+    color: gray;
+}
+
+.bottom-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.details {
+    border: 1px solid black;
+    margin: 2rem;
+    position: relative;
+    padding: 1rem;
+}
+
+.details p {
+    color: gray;
+}
+
+.details h5 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.details img {
+    position: absolute;
+    padding: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: darkslateblue;
+    border-radius: 50%;
+    top: -2.5rem
+}
+
+.detailed-records {
+    top: 40px;
+}
+
+.fully-customizable {
+    top: 80px
+}
+
+.bottom-details-blue-border {
+    border: 2px solid blue
 }
